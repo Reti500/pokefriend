@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "930911219029",
+    "project_id": "pokefriend-64d75",
+    "storage_bucket": "pokefriend-64d75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930911219029:android:9849a2690de118b695d3dc",
+        "android_client_info": {
+          "package_name": "com.example.pokefriend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqXPP352RaucwLA9IkTgBAveuh4bDYTN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

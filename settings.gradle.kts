@@ -15,3 +15,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "PokeFriend"
 include(":app")
+include(":data:remote")
+include(":data:local")
+include(":data:firebase")
