@@ -1,1 +1,1 @@
-/Users/ricardogonzalez/AndroidStudioProjects/PokeFriend/buildSrc/build/classes/kotlin/main/DependenciesKt.class
+/Users/ricardogonzalez/AndroidStudioProjects/PokeFriend/buildSrc/build/classes/kotlin/main/DependenciesKt.class:/Users/ricardogonzalez/AndroidStudioProjects/PokeFriend/buildSrc/build/classes/kotlin/main/Versions.class
