@@ -51,6 +51,7 @@ dependencies {
     
     implementation(project(":core:core"))
     implementation(project(":core:navigator"))
+    implementation(project(":data:local"))
     implementation(project(":data:remote"))
     implementation(project(":shared:components"))
 }

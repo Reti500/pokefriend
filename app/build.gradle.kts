@@ -68,6 +68,12 @@ dependencies {
     hilt()
     test()
 
+    implementation("com.google.accompanist:accompanist-permissions:0.30.1")
+
+    implementation(project(":core:core"))
     implementation(project(":core:navigator"))
     implementation(project(":feature:pokelist"))
+    implementation(project(":feature:mylocations"))
+    implementation(project(":shared:components"))
+    implementation(project(":shared:location"))
 }

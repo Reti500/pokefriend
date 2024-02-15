@@ -26,7 +26,12 @@ class DefaultNavigatorImp(): AppNavigator {
                 return@onEach
             }
 
-            navController.navigate(it.route)
+            var routeName = it.route
+            it.params.forEach { p ->
+                routeName = routeName.replace("{${p.key}}", "${p.value}", false)
+            }
+
+            navController.navigate(routeName)
         }.launchIn(scope)
     }
 }

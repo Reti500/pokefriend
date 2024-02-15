@@ -12,7 +12,13 @@ class PokemonResponseToListOfPokemon: DataMapper<NetworkResult<PokemonResponse>,
             is NetworkResult.Error -> SourceResult.Error(null, input.message)
             is NetworkResult.Exception -> SourceResult.Error(null, input.message)
             is NetworkResult.Success -> SourceResult.Success(
-                input.data?.results?.map { Pokemon(name = it.name, detail = null) } ?: emptyList()
+                input.data?.results?.map {
+                    Pokemon(
+                        name = it.name,
+                        isFavorite = false,
+                        detail = null
+                    )
+                } ?: emptyList()
             )
         }
     }

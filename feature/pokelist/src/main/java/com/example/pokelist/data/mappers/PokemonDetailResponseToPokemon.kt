@@ -15,6 +15,7 @@ class PokemonDetailResponseToPokemon: DataMapper<NetworkResult<PokemonDetailResp
             is NetworkResult.Success -> SourceResult.Success(
                 Pokemon(
                     name = input.data?.name ?: "",
+                    isFavorite = false,
                     detail = input.data?.let {
                         PokemonDetail(
                             id = it.id,
